@@ -1,0 +1,12 @@
+<!DOCTYPE html><html><body style="font-family:Arial;text-align:center;padding:50px">
+<h2>GMB TEST LOGIN</h2>
+<input id="pwd" type="password" placeholder="Password"><br><br>
+<button onclick="tryLogin()" style="background:green;color:white;padding:10px 20px">Login</button>
+<p id="msg"></p>
+<script>
+function tryLogin(){
+  let v=document.getElementById('pwd').value.trim();
+  if(v==='gmb777'){document.getElementById('msg').innerText='LOGIN SUCCESS ✅';alert('SUCCESS - Code theek hai');}
+  else{document.getElementById('msg').innerText='Wrong Password ❌';}
+}
+</script></body></html>
